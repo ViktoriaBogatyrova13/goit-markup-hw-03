@@ -17,6 +17,9 @@ a{
 h1,h2,h3,h4,h5,h6,p{
     margin:0;
 }
+img{
+    display: block;
+}
 
 .container {   
     max-width: 1158px;   
@@ -117,6 +120,7 @@ color: #404bbf;
 
 .hero{
  background: #2e2f42;
+ height: 600px;
 }
 .hero-title{
 font-weight: 700;
@@ -126,6 +130,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 padding-top:188px;
+width: 496px;
+margin:0 auto;
+ margin-bottom: 48px;
 }
 
 .hero-btn{
@@ -137,6 +144,11 @@ letter-spacing: 0.04em;
 background-color: #4D5AE5;
 cursor: pointer;
 color: #fff;
+display:block;
+padding:16px 32px;
+border-radius:4px;
+border:none;
+margin:0 auto;
 }
 
 .hero-btn:hover,
@@ -146,7 +158,29 @@ background-color: #404BBF;
 
 .solution{
 }
+.visually-hidden{
+position: absolute;
+width: 1 px;
+height: 1px;
+margin:-1px;
+border:0;
+padding:0;
+white-space: nowrap;
+clip-path:inset(100%);
+clip:rest(0 0 0 0);
+overflow:hidden;
+}
+.solution-list{
+    display: flex;
+    padding:120px;
+    gap:24px;
+}
+.solution-item{
+    width: calc((100% - 72px) / 4);
+}
+    
 
+}
 .solution-title {
     font-weight: 500;
     font-size: 20px;
@@ -173,7 +207,10 @@ color: #434455;
 .team {
 background: #f4f4fd;
 }
-
+.team-list{
+    display:flex;
+    gap:24px;
+}
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -181,12 +218,15 @@ background: #f4f4fd;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize; 
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 .team-item{
-    background-color: #FFF
-
+    background-color: #FFF;
+    width: calc((100% - 72px) / 4);
 }
-.team-pictures {
+.team-pictures { 
+    padding-bottom: 120px;
 }
 
 .team-subtitle {
@@ -205,8 +245,13 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
 
-}.portfolio {
+.portfolio {
+}
+
+.page-portfolio{
+    display:flex;
 }
 
 .portfolio-title {
