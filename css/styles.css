@@ -252,6 +252,9 @@ background: #f4f4fd;
 
 .page-portfolio{
     display:flex;
+    gap:24px 48px;
+    flex-wrap: wrap;
+    width: ;
 }
 
 .portfolio-title {
@@ -262,6 +265,8 @@ background: #f4f4fd;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom:72px;
 }
 
 .portfolio-subtitle {
@@ -278,6 +283,9 @@ background: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.portfolio-item{
+
 }
 
 .page-footer {
