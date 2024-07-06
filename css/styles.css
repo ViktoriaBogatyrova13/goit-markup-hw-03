@@ -35,11 +35,13 @@ img{
   .header-nav{
     display:flex;
     align-items: center;
+    padding:24px 0;
   }
   .nav-list{
     display:flex;
     align-items: center;
     gap:40px;
+    padding:24px 0;
   }
 
 .page-header{
@@ -91,6 +93,7 @@ margin-right:76px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding:24px 0;
 }
 
 .contacts {
@@ -153,6 +156,7 @@ padding:16px 32px;
 border-radius:4px;
 border:none;
 margin:0 auto;
+min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -161,6 +165,7 @@ background-color: #404BBF;
 }
 
 .solution{
+    display:flax;
 }
 .visually-hidden{
 position: absolute;
@@ -209,6 +214,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .team {
+    diplay:flex;
+    align-items: center;
 background: #f4f4fd;
 padding: 120px 0;
 
@@ -227,7 +234,6 @@ padding: 120px 0;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize; 
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .team-item{
@@ -246,6 +252,7 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -257,8 +264,8 @@ padding: 120px 0;
     color: #434455;
 }
 .conteiner text{
-    padding: top 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
+
 
 
 }
@@ -268,9 +275,9 @@ padding: 120px 0;
 
 .page-portfolio{
     display:flex;
-    gap:24px 48px;
+    align-items: center;
     flex-wrap: wrap;
-    width: ;
+    gap:24px 48px;
 }
 
 .portfolio-title {
@@ -282,7 +289,7 @@ padding: 120px 0;
     color: #2e2f42;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom:72px;
+    margin-bottom:72px;
 }
 
 .portfolio-subtitle {
@@ -306,9 +313,11 @@ padding: 120px 0;
 
 .page-footer {
 background-color: #2e2f42;
+padding: 100px 0;
 }
 
 .footer-logo {  
+    display:inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -316,6 +325,7 @@ background-color: #2e2f42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {
@@ -327,4 +337,5 @@ color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd; 
+    width: 264px;
 }
