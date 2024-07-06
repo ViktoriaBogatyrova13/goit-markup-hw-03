@@ -127,6 +127,7 @@ color: #404bbf;
 .hero{
  background: #2e2f42;
  height: 600px;
+ padding: 188px 0;
 }
 
 .hero-title{
@@ -136,7 +137,6 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-padding-top:188px;
 max-width: 496px;
 margin:0 auto;
  margin-bottom: 48px;
@@ -167,27 +167,31 @@ background-color: #404BBF;
 .solution{
     display:flax;
     align-items: center;
+    padding: 120px 0;
+
 }
-.visually-hidden{
-position: absolute;
-width: 1 px;
-height: 1px;
-margin:-1px;
-border:0;
-padding:0;
-white-space: nowrap;
-clip-path:inset(100%);
-clip:rest(0 0 0 0);
-overflow:hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .solution-item{
+    width:calc((100% - 72px) / 4);
 }
+
 .solution-list{
     display: flex;
     padding:120px;
-    gap:24px;
+    gap:24px;  
 }
-.solution-item{
-    width: calc((100% - 72px) / 4);
-}
+
     
 .solution-title {
     font-weight: 500;
@@ -203,6 +207,7 @@ overflow:hidden;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px; 
 }
 
 .solution-text {
@@ -264,7 +269,7 @@ padding: 120px 0;
 }
 .conteiner text{
     display:flex;
-    padding: 32px 0;
+    padding:32px 0;
 }
 
 .portfolio {
@@ -275,7 +280,9 @@ padding: 120px 0;
     align-items: center;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;   
+    row-gap: 48px;
+    padding-top: 120px;
+     padding-bottom: 120px;   
 }
 
 .portfolio-title {
